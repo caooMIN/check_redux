@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.unDone{
+  text-decoration: line-through;
+}
+.todo{
+  display: flex;
+  margin: 5%;
+  padding: 2px;
+  justify-content: space-around;
+  background: lightblue;
+  border-radius: 50px ; 
+}
+.add{
+  display: flex;
+  flex-direction: column;
+  background: lightblue;
+  border-radius: 50px ; 
+  padding: 20px;
+}
+.addparent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.theButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+}
